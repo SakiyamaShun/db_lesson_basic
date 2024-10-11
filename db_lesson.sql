@@ -54,7 +54,7 @@ UPDATE people SET department_id = 3 WHERE person_id =4;
 UPDATE people SET department_id = 4 WHERE person_id =6;
 
  --Q5の回答--
-SELECT name, age FROM people ORDER BY age DESC;
+SELECT name, age FROM people WHERE gender=1 ORDER BY age DESC;
 
  --Q6の回答--
  peopleテーブルからdepartment_id=1に該当するレコードをcreated_atの昇順で表示する。
